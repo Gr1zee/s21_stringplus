@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "strncat.h"
 
 char *strncat(char *dest, const char *src, size_t n) {
     if (dest == NULL) return NULL;

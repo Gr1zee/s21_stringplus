@@ -1,7 +1,7 @@
 #ifndef STRNCAT_H
 #define STRNCAT_H
 
-#include <stddef.h>
+#include <stddef.h> //!Заменить на наш NULL и size_t
 
 /* 
  * Добавляет строку src в конец строки dest длиной до n символов
